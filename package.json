@@ -7,7 +7,7 @@
     "html-validate": "^11.17.0"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/entrada.css -o ./css/tailwind.css",
+    "build": "tailwindcss -i ./css/entrada.css -o ./css/tailwind.css",
     "validar": "html-validate \"*.html\""
   }
 }
